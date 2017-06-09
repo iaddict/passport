@@ -6,8 +6,8 @@ defmodule Passport.Mixfile do
      description: "Provides authentication for phoenix applications",
      version: "0.0.3",
      elixir: "~> 1.0",
-     package: package,
-     deps: deps,
+     package: package(),
+     deps: deps(),
      test_coverage: [tool: ExCoveralls]]
   end
 
